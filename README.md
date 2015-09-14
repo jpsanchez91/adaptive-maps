@@ -15,7 +15,7 @@ Also has built-in support for reactive map markers, inspired by
 
 	AdaptiveMaps.init(function () {
 		var mapOptions = {
-			mapTypeId: 'ROADMAP'
+			mapTypeId: 'ROADMAP',
 			camera: {
 				latLng: new AdaptiveMaps.LatLng(59.3260728, 18.1047187),
 				zoom: 12
