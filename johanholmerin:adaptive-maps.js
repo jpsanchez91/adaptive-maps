@@ -79,7 +79,7 @@ AdaptiveMaps.init = function (options, callback) {
 		map = plugin.google.maps.Map.getMap();
 		map.on(plugin.google.maps.event.MAP_READY, callback);
 	} else {
-		GoogleMaps.init(options, callback);
+		GoogleMaps.initialize(options, callback);
 	}
 }
 
